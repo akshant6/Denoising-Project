@@ -9,7 +9,7 @@ This project presents the application and evaluation of the Zero-DCE model for e
 5. PIL
 
 # Architecture
-<img width="329" alt="image" src="https://github.com/akshant6/Denoising-Project/assets/173190670/10d3c282-5d7c-499c-b22e-4196b38e9b4b">
+<img width="329" alt="image" src="https://github.com/akshant6/Denoising-Project/assets/173190670/10d3c282-5d7c-499c-b22e-4196b38e9b4b"><br>
 A sequence of convolutional layers that estimate a set of curves to improve the input images are used to build the Zero-DCE model. Six convolutional layers with ReLU activations and two concatenation layers between them are used in the architecture to recover low level features. A final convolutional layer with a "tanh" activation is used to output the enhancement curves.
 
 
